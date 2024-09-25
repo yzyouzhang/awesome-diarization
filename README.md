@@ -18,8 +18,8 @@
   * [Speaker embedding training sets](#Speaker-embedding-training-sets)
   * [Augmentation noise sources](#Augmentation-noise-sources)
 * [Conferences](#Conferences)
-* [Leaderboards](#Leaderboards)
 * [Other learning materials](#Other-learning-materials)
+  * [Online courses](#Online-courses)
   * [Books](#Books)
   * [Tech blogs](#Tech-blogs)
   * [Video tutorials](#Video-tutorials)
@@ -43,8 +43,17 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 * [A review on speaker diarization systems and approaches](https://www.sciencedirect.com/science/article/abs/pii/S0167639312000696), 2012
 * [Speaker diarization: A review of recent research](http://www.eurecom.fr/fr/publication/3152/download/mm-publi-3152.pdf), 2010
 
+#### Large language model (LLM)
+
+* [DiarizationLM: Speaker Diarization Post-Processing with Large Language Models](https://arxiv.org/abs/2401.03506), 2024
+* [Enhancing Speaker Diarization with Large Language Models: A Contextual Beam Search Approach](https://arxiv.org/abs/2309.05248), 2023
+* [Lexical speaker error correction: Leveraging language models for speaker diarization error correction](https://arxiv.org/abs/2306.09313), 2023
+
 #### Supervised diarization
 
+* [DiaPer: End-to-End Neural Diarization with Perceiver-Based Attractors](https://arxiv.org/abs/2312.04324), 2023
+* [TOLD: A Novel Two-Stage Overlap-Aware Framework for Speaker Diarization](https://arxiv.org/abs/2303.05397), 2023
+* [Speaker Overlap-aware Neural Diarization for Multi-party Meeting Analysis](https://arxiv.org/abs/2211.10243), 2022
 * [End-to-End Diarization for Variable Number of Speakers with Local-Global Networks and Discriminative Speaker Embeddings](https://arxiv.org/abs/2105.02096), 2021
 * [Supervised online diarization with sample mean loss for multi-domain data](https://arxiv.org/abs/1911.01266), 2019
 * [Discriminative Neural Clustering for Speaker Diarisation](https://arxiv.org/abs/1910.09703), 2019
@@ -54,6 +63,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 #### Joint diarization and ASR
 
+* [A Comparative Study on Speaker-attributed Automatic Speech Recognition in Multi-party Meetings](https://arxiv.org/abs/2203.16834), 2022
 * [Turn-to-Diarize: Online Speaker Diarization Constrained by Transformer Transducer Speaker Turn Detection](https://arxiv.org/abs/2109.11641), 2021
 * [Transcribe-to-Diarize: Neural Speaker Diarization for Unlimited Number of Speakers using End-to-End Speaker-Attributed ASR](https://arxiv.org/abs/2110.03151), 2021
 * [Joint Speech Recognition and Speaker Diarization via Sequence Transduction](https://arxiv.org/abs/1907.05337), 2019
@@ -67,6 +77,7 @@ To add items to this page, simply send a pull request. ([contributing guide](CON
 
 #### Challenges
 
+* [M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge](https://arxiv.org/abs/2110.07393), 2022
 * [The Hitachi-JHU DIHARD III system: Competitive end-to-end neural diarization and x-vector clustering systems combined by DOVER-Lap](https://arxiv.org/abs/2102.01363)
 * [Diarization is Hard: Some Experiences and Lessons Learned for the JHU
 Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs/interspeech_2018/sell18_interspeech.pdf), 2018
@@ -91,6 +102,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 * [DIVE: End-to-end Speech Diarization via Iterative Speaker Embedding](https://arxiv.org/abs/2105.13802)
 * [DOVER-Lap: A method for combining overlap-aware diarization outputs](https://arxiv.org/abs/2011.01997)
 * [Bayesian HMM clustering of x-vector sequences (VBx) in speaker diarization: Theory, implementation and analysis on standard tasks](https://www.sciencedirect.com/science/article/pii/S0885230821000619)
+* [AISHELL-4: An Open Source Dataset for Speech Enhancement, Separation, Recognition and Speaker Diarization in Conference Scenario](https://arxiv.org/abs/2104.03603), 2021
 
 #### 2020
 
@@ -167,6 +179,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 
 | Link | Language | Description |
 | ---- | -------- | ----------- |
+| [FunASR](https://github.com/alibaba-damo-academy/FunASR) ![GitHub stars](https://img.shields.io/github/stars/alibaba-damo-academy/FunASR?style=social) | Python & PyTorch | FunASR is an open-source speech toolkit based on PyTorch, which aims at bridging the gap between academic researchs and industrial applications. |
 | [MiniVox](https://github.com/doerlbh/MiniVox) ![GitHub stars](https://img.shields.io/github/stars/doerlbh/MiniVox?style=social) | MATLAB | MiniVox is an open-source evaluation system for the online speaker diarization task. |
 | [SpeechBrain](https://github.com/speechbrain/speechbrain) ![GitHub stars](https://img.shields.io/github/stars/speechbrain/speechbrain?style=social) | Python & PyTorch | SpeechBrain is an open-source and all-in-one speech toolkit based on PyTorch. |
 | [SIDEKIT for diarization (s4d)](https://projets-lium.univ-lemans.fr/s4d/) | Python | An open source package extension of SIDEKIT for Speaker diarization. |
@@ -174,6 +187,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | [AaltoASR](https://github.com/aalto-speech/speaker-diarization) ![GitHub stars](https://img.shields.io/github/stars/aalto-speech/speaker-diarization?style=social) | Python & Perl | Speaker diarization scripts, based on AaltoASR. |
 | [LIUM SpkDiarization](https://projets-lium.univ-lemans.fr/spkdiarization/) | Java | LIUM_SpkDiarization is a software dedicated to speaker diarization (i.e. speaker segmentation and clustering). It is written in Java, and includes the most recent developments in the domain (as of 2013). |
 | [kaldi-asr](https://github.com/kaldi-asr/kaldi/tree/master/egs/callhome_diarization) [![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi) | Bash | Example scripts for speaker diarization on a portion of CALLHOME used in the 2000 NIST speaker recognition evaluation. |
+| [kaldi-speaker-diarization](https://github.com/cadia-lvl/kaldi-speaker-diarization) ![GitHub stars](https://img.shields.io/github/stars/cadia-lvl/kaldi-speaker-diarization?style=social) | Bash | Icelandic speaker diarization scripts using kaldi. |
 | [Alize LIA_SpkSeg](https://alize.univ-avignon.fr/) | C++ | ALIZÉ is an opensource platform for speaker recognition. LIA_SpkSeg is the tools for speaker diarization. |
 | [pyannote-audio](https://github.com/pyannote/pyannote-audio) ![GitHub stars](https://img.shields.io/github/stars/pyannote/pyannote-audio?style=social) | Python | Neural building blocks for speaker diarization: speech activity detection, speaker change detection, speaker embedding. |
 | [pyBK](https://github.com/josepatino/pyBK) ![GitHub stars](https://img.shields.io/github/stars/josepatino/pyBK?style=social) | Python | Speaker diarization using binary key speaker modelling. Computationally light solution that does not require external training data. |
@@ -183,6 +197,8 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | [RE-VERB](https://github.com/team-re-verb/RE-VERB) ![GitHub stars](https://img.shields.io/github/stars/team-re-verb/RE-VERB?style=social) | Python & JavaScript | RE: VERB is speaker diarization system, it allows the user to send/record audio of a conversation and receive timestamps of who spoke when. |
 | [StreamingSpeakerDiarization](https://github.com/juanmc2005/StreamingSpeakerDiarization/) ![GitHub stars](https://img.shields.io/github/stars/juanmc2005/StreamingSpeakerDiarization?style=social) | Python | Streaming speaker diarization, extends [pyannote.audio](https://github.com/pyannote/pyannote-audio) to online processing |
 | [simple_diarizer](https://github.com/cvqluu/simple_diarizer) | Python | Simplified diarization pipeline using some pretrained models. Made to be a simple as possible to go from an input audio file to diarized segments. |
+| [Picovoice Falcon](https://github.com/Picovoice/falcon) ![GitHub stars](https://img.shields.io/github/stars/Picovoice/falcon?style=social) | C & Python | A [lightweight, accurate, and fast](https://picovoice.ai/docs/benchmark/speaker-diarization/#accuracy) speaker diarization engine written in C and available in Python, running on CPU with minimal overhead. |
+| [DiaPer](https://github.com/BUTSpeechFIT/DiaPer) ![GitHub stars](https://img.shields.io/github/stars/BUTSpeechFIT/DiaPer?style=social) | Python | Pytorch implementation for [DiaPer: End-to-End Neural Diarization with Perceiver-Based Attractors](https://arxiv.org/pdf/2312.04324.pdf) including models pre-trained on free and public data. |
 
 
 ### Evaluation
@@ -190,11 +206,13 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | Link | Language | Description |
 | ---- | -------- | ----------- |
 | [pyannote-metrics](https://github.com/pyannote/pyannote-metrics) ![GitHub stars](https://img.shields.io/github/stars/pyannote/pyannote-metrics?style=social) [![Build Status](https://travis-ci.org/pyannote/pyannote-metrics.svg?branch=master)](https://travis-ci.org/pyannote/pyannote-metrics)  | Python| A toolkit for reproducible evaluation, diagnostic, and error analysis of speaker diarization systems. |
-| [SimpleDER](https://github.com/wq2012/SimpleDER) ![GitHub stars](https://img.shields.io/github/stars/wq2012/SimpleDER?style=social) [![Build Status](https://travis-ci.org/wq2012/SimpleDER.svg?branch=master)](https://travis-ci.org/wq2012/SimpleDER) | Python | A lightweight library to compute Diarization Error Rate (DER). |
+| [SimpleDER](https://github.com/wq2012/SimpleDER) ![GitHub stars](https://img.shields.io/github/stars/wq2012/SimpleDER?style=social) ![Python package](https://github.com/wq2012/SimpleDER/workflows/Python%20package/badge.svg) | Python | A lightweight library to compute Diarization Error Rate (DER). |
+| [DiarizationLM](https://github.com/google/speaker-id/blob/master/DiarizationLM/README.md) ![GitHub stars](https://img.shields.io/github/stars/google/speaker-id?style=social) [![Build Status](https://github.com/google/speaker-id/actions/workflows/python-app-diarizationlm.yml/badge.svg)](https://github.com/google/speaker-id/actions/workflows/python-app-diarizationlm.yml) | Python | Implements Word Error Rate (WER), Word Diarization Error Rate (WDER), and concatenated minimum-permutation Word Error Rate (cpWER). |
 | NIST md-eval | Perl | (1) modified [md-eval.pl](http://www1.icsi.berkeley.edu/~knoxm/dia/) from [Mary Tai Knox](http://www1.icsi.berkeley.edu/~knoxm); (2) [md-eval-v21.pl](https://github.com/jitendrab/btp/blob/master/c_code/single_diag_gaussian_no_viterbi/md-eval-v21.pl) from [jitendra](https://github.com/jitendrab); (3) [md-eval-22.pl](https://github.com/nryant/dscore/blob/master/scorelib/md-eval-22.pl) from [nryant](https://github.com/nryant) |
 | [dscore](https://github.com/nryant/dscore) ![GitHub stars](https://img.shields.io/github/stars/nryant/dscore?style=social) | Python & Perl | Diarization scoring tools. |
 | [Sequence Match Accuracy](https://github.com/google/uis-rnn/blob/master/uisrnn/evals.py) | Python | Match the accuracy of two sequences with Hungarian algorithm. |
 | [spyder](https://github.com/desh2608/spyder) ![GitHub stars](https://img.shields.io/github/stars/desh2608/spyder?style=social) | Python & C++ | Simple Python package for fast DER computation. |
+| [CDER](https://github.com/SpeechClub/CDER_Metric) ![GitHub stars](https://img.shields.io/github/stars/SpeechClub/CDER_Metric?style=social) | Python | Conversational DER from [The Conversational Short-phrase Speaker Diarization (CSSD) Task: Dataset, Evaluation Metric and Baselines](https://arxiv.org/abs/2208.08042) |
 
 ### Clustering
 
@@ -218,6 +236,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | [Speaker_Verification](https://github.com/Janghyun1230/Speaker_Verification) ![GitHub stars](https://img.shields.io/github/stars/Janghyun1230/Speaker_Verification?style=social) | d-vector | Python & TensorFlow | Tensorflow implementation of generalized end-to-end loss for speaker verification. |
 | [PyTorch_Speaker_Verification](https://github.com/HarryVolek/PyTorch_Speaker_Verification) ![GitHub stars](https://img.shields.io/github/stars/HarryVolek/PyTorch_Speaker_Verification?style=social) | d-vector | Python & PyTorch | PyTorch implementation of "Generalized End-to-End Loss for Speaker Verification" by Wan, Li et al. With UIS-RNN integration. |
 | [Real-Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) ![GitHub stars](https://img.shields.io/github/stars/CorentinJ/Real-Time-Voice-Cloning?style=social) | d-vector | Python & PyTorch | Implementation of "Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis" (SV2TTS) with a vocoder that works in real-time. |
+| [conformer-speaker-encoder](https://huggingface.co/tflite-hub/conformer-speaker-encoder) | d-vector |Python & TFLite | Massively multilingual conformer-based speaker recognition models in TFLite format. |
 | [deep-speaker](https://github.com/philipperemy/deep-speaker) ![GitHub stars](https://img.shields.io/github/stars/philipperemy/deep-speaker?style=social) | d-vector |Python & Keras | Third party implementation of the Baidu paper Deep Speaker: an End-to-End Neural Speaker Embedding System. |
 | [x-vector-kaldi-tf](https://github.com/hsn-zeinali/x-vector-kaldi-tf) ![GitHub stars](https://img.shields.io/github/stars/hsn-zeinali/x-vector-kaldi-tf?style=social) | x-vector | Python & TensorFlow & Perl | Tensorflow implementation of x-vector topology on top of Kaldi recipe. |
 | [kaldi-ivector](https://github.com/idiap/kaldi-ivector) ![GitHub stars](https://img.shields.io/github/stars/idiap/kaldi-ivector?style=social) | i-vector | C++ & Perl |  Extension to Kaldi implementing the standard i-vector hyperparameter estimation and i-vector extraction procedure. |
@@ -225,12 +244,16 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | [pytorch_xvectors](https://github.com/manojpamk/pytorch_xvectors) ![GitHub stars](https://img.shields.io/github/stars/manojpamk/pytorch_xvectors?style=social) | x-vector | Python & PyTorch | PyTorch implementation of Voxceleb x-vectors. Additionaly, includes meta-learning architectures for embedding training. Evaluated with speaker diarization and speaker verification. |
 | [ASVtorch](https://gitlab.com/ville.vestman/asvtorch) | i-vector | Python & PyTorch | ASVtorch is a toolkit for automatic speaker recognition. |
 | [asv-subtools](https://github.com/Snowdar/asv-subtools) ![GitHub stars](https://img.shields.io/github/stars/Snowdar/asv-subtools?style=social) | i-vector & x-vector | Kaldi & PyTorch | ASV-Subtools is developed based on Pytorch and Kaldi for the task of speaker recognition, language identification, etc. The 'sub' of 'subtools' means that there are many modular tools and the parts constitute the whole. |
+| [WeSpeaker](https://github.com/wenet-e2e/wespeaker.git) ![GitHub stars](https://img.shields.io/github/stars/wenet-e2e/wespeaker?style=social) | x-vector & r-vector | Python & C++ & PyTorch | WeSpeaker is a research and production oriented speaker verification, recognition and diarization toolkit, which supports very strong recipes with on-the-fly data preparation, model training and evaluation, as well as runtime C++ codes. |
+| [ReDimNet](https://github.com/IDRnD/ReDimNet) ![GitHub stars](https://img.shields.io/github/stars/IDRnD/ReDimNet?style=social) | improved resnet | Pytorch | Neural network architecture presented in the paper [Reshape Dimensions Network for Speaker Recognition](https://arxiv.org/abs/2407.18223) |
+
 
 ### Speaker change detection
 
 | Link  | Language | Description |
 | ----  | -------- | ----------- |
 | [change_detection](https://github.com/yinruiqing/change_detection) ![GitHub stars](https://img.shields.io/github/stars/yinruiqing/change_detection?style=social) | Python & Keras | Code for Speaker Change Detection in Broadcast TV using Bidirectional Long Short-Term Memory Networks. |
+| [tidydiarize](https://github.com/akashmjn/tinydiarize) ![GitHub stars](https://img.shields.io/github/stars/akashmjn/tinydiarize?style=social) | Python | Diarization inside OpenAI Whisper decoder |
 
 ### Audio feature extraction
 
@@ -248,6 +271,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | [gpuRIR](https://github.com/DavidDiazGuerra/gpuRIR) ![GitHub stars](https://img.shields.io/github/stars/DavidDiazGuerra/gpuRIR?style=social) | Python | Python library for Room Impulse Response (RIR) simulation with GPU acceleration |
 | [rir_simulator_python](https://github.com/sunits/rir_simulator_python) ![GitHub stars](https://img.shields.io/github/stars/sunits/rir_simulator_python?style=social) | Python | Room impulse response simulator using python |
 | [WavAugment](https://github.com/facebookresearch/WavAugment) ![GitHub stars](https://img.shields.io/github/stars/facebookresearch/WavAugment?style=social) | Python & PyTorch | WavAugment performs data augmentation on audio data. The audio data is represented as pytorch tensors |
+| [EEND_dataprep](https://github.com/BUTSpeechFIT/EEND_dataprep) ![GitHub stars](https://img.shields.io/github/stars/BUTSpeechFIT/EEND_dataprep?style=social) | Bash & Python | Recipes for generating [simulated conversations](https://arxiv.org/abs/2204.00890) used to train end-to-end diarization models. |
 
 ### Other software
 
@@ -255,6 +279,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | ---- | -------- | ----------- |
 | [VB Diarization](https://github.com/wq2012/VB_diarization) ![GitHub stars](https://img.shields.io/github/stars/wq2012/VB_diarization?style=social) [![Build Status](https://travis-ci.org/wq2012/VB_diarization.svg?branch=master)](https://travis-ci.org/wq2012/VB_diarization) | Python | VB Diarization with Eigenvoice and HMM Priors. |
 | [DOVER-Lap](https://github.com/desh2608/dover-lap) ![GitHub stars](https://img.shields.io/github/stars/desh2608/dover-lap?style=social) | Python | Python package for combining diarization system outputs |
+| [Diar-az](https://github.com/cadia-lvl/diar-az) | Python | Data formatting tool to support the ruv-di dataset. Kaldi to Gecko to Kaldi and corpus and back |  |
 
 ## Datasets
 
@@ -271,6 +296,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | [Fisher English Training Part 2, Speech](https://catalog.ldc.upenn.edu/LDC2005S13) | [Fisher English Training Part 2, Transcripts](https://catalog.ldc.upenn.edu/LDC2005T19) | en | $7000.00 + $1000.00 |
 | [VoxConverse](https://github.com/joonson/voxconverse) | TBD | TBD | Free | VoxConverse is an audio-visual diarisation dataset consisting of over 50 hours of multispeaker clips of human speech, extracted from YouTube videos |
 | [MiniVox Benchmark](https://github.com/doerlbh/MiniVox) | [MiniVox Benchmark](https://github.com/doerlbh/MiniVox) | en | Free | MiniVox is an automatic framework to transform any speaker-labelled dataset into continuous speech datastream with episodically revealed label feedbacks. |
+| [The AliMeeting Corpus](https://github.com/yufan-aslp/AliMeeting) | Together with audios | zh | Free |  |
 
 ### Speaker embedding training sets
 
@@ -287,6 +313,7 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 | [BookTubeSpeech](https://users.wpi.edu/~jrwhitehill/BookTubeSpeech/index.html) | 8K | 8K | en | Free | Audio samples extracted from BookTube videos - videos where people share their opinions on books - from YouTube. The dataset can be downloaded using [BookTubeSpeech-download](https://github.com/wq2012/BookTubeSpeech-download). |
 | [DeepMine](http://data.deepmine.ir/en/index.html) | 540K | 1850 | fa, en | Unknown | A speech database in Persian and English designed to build and evaluate speaker verification, as well as Persian ASR systems. |
 | [NISP-Dataset](https://github.com/iiscleap/NISP-Dataset) | ? | 345 | hi, kn, ml, ta, te (all Indian languages) | Free | This dataset contains speech recordings along with speaker physical parameters (height, weight, ... ) as well as regional information and linguistic information. |
+| [VoxBlink2](https://voxblink2.github.io/) | 10M | 100k+ | 18 lanugages (en, pt, es, ru, ar, ...) | CC BY-NC-SA 4.0 | Multilingual dataset from [VoxBlink2: A 100K+ Speaker Recognition Corpus and the Open-Set Speaker-Identification Benchmark](https://arxiv.org/abs/2407.11510) |
 
 ### Augmentation noise sources
 
@@ -337,9 +364,16 @@ Team in the Inaugural DIHARD Challenge](https://www.isca-speech.org/archive/pdfs
 
 ## Products
 
-| Company | Product |
-| ------- | ------- |
-| Google  | [Google Cloud Speech-to-Text API](https://cloud.google.com/speech-to-text/docs/multiple-voices) |
-| Amazon  | [Amazon Transcribe](https://aws.amazon.com/transcribe) |
-| IBM     | [Watson Speech To Text API](https://www.ibm.com/watson/services/speech-to-text) |
-| DeepAffects | [Speaker Diarization API](https://www.deepaffects.com/diarization-api) |
+| Company | Product                                                                                                                                      |
+| ------- |----------------------------------------------------------------------------------------------------------------------------------------------|
+| Google  | [Recorder app](https://support.google.com/pixelphone?p=recorder_speaker_labels)                                                              |
+| Google  | [Google Cloud Speech-to-Text API](https://cloud.google.com/speech-to-text/docs/multiple-voices)                                              |
+| Amazon  | [Amazon Transcribe](https://aws.amazon.com/transcribe)                                                                                       |
+| IBM     | [Watson Speech To Text API](https://www.ibm.com/watson/services/speech-to-text)                                                              |
+| DeepAffects | [Speaker Diarization API](https://www.deepaffects.com/diarization-api)                                                                       |
+| Alibaba | [Tingwu (听悟)](https://tingwu.aliyuncs.com/trans)                                                                                             |
+| Microsoft | [Azure Conversation Transcription API](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/conversation-transcription) |
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wq2012/awesome-diarization&type=Date)](https://star-history.com/#wq2012/awesome-diarization&Date)
